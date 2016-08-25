@@ -1,0 +1,20 @@
+cd c:\Users\Norma\.android (sesuai komputer masing-masing)
+
+c:\Users\Norma\.android>keytool  -v  -list  -alias  androiddebugkey  -keystore
+debug.keystore  -storepass android -keypass android
+
+https://developers.google.com/maps/documentation/android/v1/maps-api-signup
+
+ <com.google.android.maps.MapView
+        android:id="@+id/peta"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:apiKey="0Ba1o3C-9FEqskBBnno33qmdUebQGjVt12dvUQA" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/> 
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> 
+    <uses-permission  android:name="android.permission.INTERNET" /> 
+
+dalam application
+
+ <uses-library android:name="com.google.android.maps" /> 
